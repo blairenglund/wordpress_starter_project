@@ -6,7 +6,7 @@
 	session_start();
 	if ($_GET["theme"] == "cake time") { $_SESSION["theme"] = "cake time";}
 	elseif ($_GET["theme"] == "classic") { $_SESSION["theme"] = "classic";}
-	include 'php/themeswitcher.php' ?>
+	include 'themeswitcher.php' ?>
 
 	<?php wp_head(); ?>
 	

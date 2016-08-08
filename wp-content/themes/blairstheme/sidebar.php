@@ -1,7 +1,12 @@
 <div class="sidebar">
 	<div class="header">
 		<a class="header__name" href="<?php bloginfo('wpurl');?>">blair</a>
-		<?php include '/php/social.php' ?>
+		<div class="social">
+			<?php 
+				$links = array("http://localhost:8888/wordpress_starter_project/wp-content/uploads/2016/08/icon_twitter_white.png"=> "https://twitter.com/blairenglund", "http://localhost:8888/wordpress_starter_project/wp-content/uploads/2016/08/icon_linkedin_white.png"=> "https://www.linkedin.com/in/blairenglund", "http://localhost:8888/wordpress_starter_project/wp-content/uploads/2016/08/icon_github_white.png"=> "https://github.com/blairenglund");
+				foreach ($links as $img => $address) {echo "&thinsp; <a href=".$address."><img src=".$img." height=35 ></a> &thinsp;";}
+			?>
+		</div>
 	</div>
 
 	<div class="navbar">

@@ -6,6 +6,10 @@
 
 	<?php get_template_part( 'content', get_post_format() ); ?>
 
+	<br><br>
+	<div class="separator"></div>
+	<br><br>
+
 <?php endwhile; endif; ?>
 
 

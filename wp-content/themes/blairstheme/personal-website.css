@@ -119,7 +119,15 @@ body {
 	margin-left: 290px;
 }
 
+.content a{
+	color: #ff9900;
+}
 
+.separator{
+	width: 100%;
+	height: 2px;
+	background-color: #565656;
+}
 
 
 
