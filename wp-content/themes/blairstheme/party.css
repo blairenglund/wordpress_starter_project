@@ -1,0 +1,125 @@
+body {
+	background-color: #F0F3D6;
+	font-family: Trebuchet, sans-serif;
+	color: black;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	margin-top: -10px;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 auto;
+	position: fixed;
+	min-height: 100vh;
+}
+
+@font-face {
+    font-family: Sullivan-Fill;
+    src: url(fonts/Sullivan-Fill.otf);
+}
+
+.header {
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: #ECB3BA;
+	color: #51B4D4;
+	width: 250px;
+	padding: 0px 10px 30px 10px;
+	text-decoration: none;
+	margin-top: -10px;
+	margin-left: -10px;
+	text-align: center;
+}
+
+.header__name {
+	font-family: "Sullivan-Fill";
+	text-decoration: none;
+	color: #FFF;
+	font-size: 8em;
+}
+
+.header__name:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.header__name:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.navbar {
+	display: flex;
+	flex-flow: column nowrap;
+	text-decoration: none;
+	background-color: #BC9353 ;
+	padding:10px;
+	width: 250px;
+	color: #F0F3D6;
+	margin-left: -10px;
+	min-height: 100vh;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #FFF;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    width: 60px;
+}
+
+.navbar li a {
+    display: block;
+    width: 260px;
+    padding: 5px 0 5px 0;
+    color: #FFF;
+}
+
+.navbar li a:hover {
+    background-color: #ECB3BA;
+    color: white;
+    margin-left: -10px;
+    padding-left: 10px;
+}
+
+#currentpage a{
+	color: #ECB3BA;
+}
+
+#currentpage a:hover{
+	color:#FFF;
+}
+
+.social {
+	display: flex;
+	font-size: 1em;
+	justify-content: space-around;
+	align-items: center;
+	align-self: center;
+	padding: 0px 10 10 30px;
+}
+
+.content{
+	background-color: #F0F3D6 ;
+	color: #BC9353;
+	margin-left: 290px;
+}
+
+
+
+
+
